@@ -1,0 +1,20 @@
+version: '3'
+volumes:
+  web_data:
+    external: true
+services:
+  web-front:
+    image: proyecto_vue/final:v1        
+    ports:
+      - "80:80"
+  #web-back:
+  #  image: servicios_back_django-web:latest
+   # command: python manage.py runserver 0.0.0.0:8000
+   # ports:
+      - "8000:8000"
+  bd: 
+    image: clue/json-server:latest
+    volumes:
+      - ./database/db.json:/data/db.json 
+    ports:
+      - "3000:80"

@@ -1,0 +1,60 @@
+{
+  "catalogo": [
+    {
+      "id": 1,
+      "nombre": "Antibióticos"
+    },
+    {
+      "id": 2,
+      "nombre": "Analgésicos"
+    },
+    {
+      "id": 3,
+      "nombre": "Antialérgicos"
+    }
+  ],
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Azitromicina",
+      "descripcion": "La azitromicina es un antibiótico de amplio espectro del grupo de macrólidos que actúa contra varias bacterias grampositivas y gramnegativas. También es efectiva contra Mycoplasma pneumoniae, Treponema pallidum, Chlamydia y Mycobacterium avium complex.​",
+      "precio": "60",
+      "catalogoId": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Cetirizina",
+      "descripcion": "Derivado piperazínico de acción prolongada. Cetirizina es el metabolito ácido carboxílico de hidroxicina. Por ello, presenta una mayor polaridad que ésta, lo que explica su escasa capacidad para atravesar la barrera hematoencefálica.",
+      "precio": "35",
+      "catalogoId": 3
+    },
+    {
+      "id": 3,
+      "nombre": "Paracetamol",
+      "descripcion": "El paracetamol, también conocido como acetaminofén o acetaminofeno o p-Acetilaminofenol, es un fármaco con propiedades analgésicas y antipiréticas utilizado principalmente para tratar la fiebre y el dolor leve y moderado.",
+      "precio": "20",
+      "catalogoId": 2
+    },
+    {
+      "id": 4,
+      "nombre": "Amoxicilina",
+      "descripcion": "La amoxicilina es un antibiótico semisintético derivado de la penicilina. Se trata de una amino penicilina. Actúa contra un amplio espectro de bacterias, tanto Gram positivos como Gram-negativos.",
+      "precio": "125",
+      "catalogoId": 1
+    },
+    {
+      "id": 5,
+      "nombre": "Colistina",
+      "descripcion": "La colistina es un antibiótico polimixina producido por ciertas cepas de la bacteria Paenibacillus polymyxa var. colistinus. La colistina es una mezcla de polipéptido cíclico colistin A y B. La colistina es efectiva contra todos los bacilos Gram-negativos y es usada como antibiótico polipéptido.",
+      "precio": "420",
+      "catalogoId": 1
+    },
+    {
+      "id": 6,
+      "nombre": "Ibuprofeno",
+      "descripcion": "El ibuprofeno es un antiinflamatorio no esteroideo, utilizado frecuentemente como antipirético, analgésico y antiinflamatorio.",
+      "precio": "79",
+      "catalogoId": 2
+    }
+  ]
+}
