@@ -11,6 +11,10 @@
     {
       "id": 3,
       "nombre": "Antialérgicos"
+    },
+    {
+      "id": 4,
+      "nombre": "Antidiarreíco"
     }
   ],
   "productos": [
@@ -55,6 +59,13 @@
       "descripcion": "El ibuprofeno es un antiinflamatorio no esteroideo, utilizado frecuentemente como antipirético, analgésico y antiinflamatorio.",
       "precio": "79",
       "catalogoId": 2
+    },
+    {
+      "id": 7,
+      "nombre": "Caseína",
+      "descripcion": "La caseína es una fosfoproteína, lo cual significa que esta químicamente unida a una sustancia que contiene ácido fosfórico, la mayoría de los grupos fosfato están unidos por los grupos hidroxilo de los aminoácidos serina y treonina (22).",
+      "precio": "230",
+      "catalogoId": 3
     }
   ]
 }
