@@ -4,7 +4,11 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "lint:fix": "npm run lint -- --fix",
+    "lint": "eslint . --ext .js,.ts",
+    "test": "run lint && npm run test:run",
+    "test:run": "jest"
   },
   "dependencies": {
     "core-js": "^3.8.3",
