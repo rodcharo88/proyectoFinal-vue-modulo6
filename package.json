@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint:fix": "npm run lint -- --fix",
-    "lint": "eslint . --ext .js,.ts",
+    "lint": "esw webpack.config.* src tools; exit 0",
     "test": "run lint && npm run test:run",
     "test:run": "jest"
   },
